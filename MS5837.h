@@ -2,7 +2,7 @@
  * MS5837.h
  *
  *  Created on: Feb 4, 2021
- *      Author: Zeynep Yurttaþ
+ *      Author: Zeynep YurttaÃ¾
  */
 
 #ifndef INC_MS5837_H_
@@ -52,7 +52,7 @@ typedef struct  {
 	MS5837_values_t val;
 }MS5837_t;
 
-t_MS5837_Status MPU5837_Init(MS5837_t *MS5837);
+t_MS5837_Status MS5837_Init(MS5837_t *MS5837);
 t_MS5837_Status MS5837_Reset();
 void MS5837_30BA_Calc(MS5837_t *MS5837);
 void MS5837_02BA_Calc(MS5837_t *MS5837);
