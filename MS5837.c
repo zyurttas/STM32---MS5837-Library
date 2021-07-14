@@ -2,7 +2,7 @@
  * MS5837.c
  *
  *  Created on: Feb 4, 2021
- *      Author: Zeynep Yurttaþ
+ *      Author: Zeynep Yurttas
  */
 
 
@@ -71,7 +71,7 @@ static uint8_t crc4(uint16_t n_prom[]) {
  *** After using this function, calibration data can be reached through MS5837->val.C ***
  *** This function returns communication result ***
  */
-t_MS5837_Status MPU5837_Init(MS5837_t *MS5837){
+t_MS5837_Status MS5837_Init(MS5837_t *MS5837){
 	MS5837->fluidDensity = 1029;
 	MS5837->model = MS5837_30BA;
 
